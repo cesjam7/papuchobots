@@ -19,8 +19,8 @@ class Papucho {
 
         add_submenu_page(
             'tools.php',
-            __( 'Papucho Bots', 'papuchobots' ),
-            __( 'Papucho', 'papuchobots' ),
+            __( 'Importador Usuarios', 'papuchobots' ),
+            __( 'Importador Usuarios', 'papuchobots' ),
             'manage_options',
             'papucho-bots',
             array($this, 'page_options')
@@ -28,7 +28,7 @@ class Papucho {
     }
 
     function page_options() { ?>
-        <h1><?php _e( 'Papucho Bots', 'papuchobots' ) ?></h1>
+        <h1><?php _e( 'Importador Usuarios', 'papuchobots' ) ?></h1>
         <form id="papucho_import" action="<?php echo admin_url('admin-ajax.php'); ?>" method="post" enctype="multipart/form-data">
             <p>Seleccionar archivo a importar (.csv)<br>
                 <input type="file" name="papucho_file" />

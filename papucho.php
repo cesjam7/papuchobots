@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Papucho Bots
+Plugin Name: Importador Usuarios
 Description: Módulo para crear post o usuarios automáticos
 Version: 0.1
 Author: César Aquino Maximiliano
